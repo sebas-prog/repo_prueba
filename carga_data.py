@@ -6,7 +6,6 @@ from urllib.parse import quote_plus
 import pyodbc
 import sqlalchemy
 import pyodbc
-#import os
 import os
 
 def prueba_1():
@@ -43,4 +42,3 @@ class TaskA(luigi.Task):
 
 if __name__ == '__main__':
     luigi.build([TaskA()], local_scheduler=True)
-    #prueba_1()

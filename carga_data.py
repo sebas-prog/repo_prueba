@@ -6,7 +6,7 @@ from urllib.parse import quote_plus
 import pyodbc
 import sqlalchemy
 import pyodbc
-import os
+#import os
 import os
 
 def prueba_1():
